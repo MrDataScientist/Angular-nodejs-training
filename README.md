@@ -31,5 +31,5 @@ The script clones the nvm repository to ~/.nvm and adds the source line to your 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
-# Install git for windows
+## Install git for windows
 https://git-scm.com/download/win
