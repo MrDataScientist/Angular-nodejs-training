@@ -2,7 +2,7 @@
 
 
 
-#to download the latest version of node js go to :
+# to download the latest version of node js go to :
 https://nodejs.org/en/download/current/
 
 # to check which version of node js I am using :
@@ -15,10 +15,8 @@ which node
 https://github.com/coreybutler/nvm-windows/releases
 https://github.com/creationix/nvm
 
-#install git for windows
-https://git-scm.com/download/win
 
-#Install script
+# Install script
 
 To install or update nvm, you can use the install script using cURL:
 
@@ -32,3 +30,6 @@ The script clones the nvm repository to ~/.nvm and adds the source line to your 
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# Install git for windows
+https://git-scm.com/download/win
