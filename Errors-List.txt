@@ -29,11 +29,7 @@ Maybe you had run node app in other shell, Please close it and run again.
 
 
 2) problem:
- 4
-down vote
-favorite
-	
-
+ 
 I've been trying to install a package that I have defined the package.json for. The package.json file is very simple.
 
 {
@@ -96,6 +92,7 @@ v5.4.1
 npm --version
 3.3.12
 ------------------------------------------------------------------------------------------------
+
 
 3)Problem:
 
