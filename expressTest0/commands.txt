@@ -6,3 +6,6 @@ npm install -g nodemon
 
 #to run the simulation
 nodemon index.js
+
+#install body-parser
+npm install --save body-parser
