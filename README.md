@@ -33,3 +33,6 @@ export NVM_DIR="$HOME/.nvm"
 
 ## Install git for windows
 https://git-scm.com/download/win
+
+## Node.js v6.8.1 Documentation
+https://nodejs.org/api/net.html#net_socket_connect_port_host_connectlistener
