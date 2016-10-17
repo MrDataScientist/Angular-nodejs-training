@@ -1,0 +1,20 @@
+Script to install node on a Linux Box
+Source : https://bizsitegenie.com/script-to-install-node-on-a-linux-box/
+
+The below list of commands can be put in a .sh file and run on the virtual box to install node:
+
+cd /opt
+sudo wget http://nodejs.org/dist/v0.12.2/node-v0.12.2.tar.gz
+sudo tar zxf node-v0.12.2.tar.gz
+cd node-v0.12.2
+sudo ./configure --prefix=/usr/local
+sudo make
+sudo make install
+node -v
+
+Make sure the sh file has execute permissions before you attempt to run it. Do a ls -l to see the file permissions. Use the chmod command to change the permission.
+Reference:
+
+http://www.linux.org/threads/file-permissions-chmod.4094/
+
+I created this script for the latest version of node at the time of this writing. Change the version in the file name to install a different version. Go to nodejs.org to check the latest version that is available to download:
