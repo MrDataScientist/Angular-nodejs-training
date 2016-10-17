@@ -1,0 +1,8 @@
+# Create package.json
+npm init
+
+#install nodemon
+npm install -g nodemon 
+
+#to run the simulation
+nodemon index.js
