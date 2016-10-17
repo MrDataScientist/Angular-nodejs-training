@@ -29,3 +29,81 @@ Maybe you had run node app in other shell, Please close it and run again.
 
 
 2) problem:
+ 4
+down vote
+favorite
+	
+
+I've been trying to install a package that I have defined the package.json for. The package.json file is very simple.
+
+{
+  "name": "project",
+  "version": "0.0.1",
+  "devDependencies": {
+    "karma-jasmine": "0.2.2"
+  }
+}
+
+Now when I issue a
+
+npm install .
+
+I get the following error.
+
+npm WARN package.json package.json@0.0.0 No repository field.
+npm ERR! addLocal Could not install /Users/username/projects/project
+npm ERR! Darwin 14.0.0
+npm ERR! argv "node" "/usr/local/bin/npm" "install" "."
+npm ERR! node v0.10.32
+npm ERR! npm  v2.1.5
+npm ERR! code EISDIR
+npm ERR! errno 28
+
+npm ERR! EISDIR, read
+npm ERR!
+npm ERR! If you need help, you may report this error at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/username/projects/project/npm-debug.log
+
+Unable to understand what am I doing wrong.
+SOLUTION----------------------------------------------------------------------------
+
+After spending a lot of time on this I finally figured out the cause. I didn't have a package.json file but I had it misspelt as packages.json file.
+
+NPM wasn't able to pick up the file from the current directory and then it tried my home directory and then showed the unhelpful error. I hope this will help somebody save some time.
+
+Top Tip - once you have created your new project's github repository and cloned it locally, issue the command :
+
+npm init    
+
+which will prompt you for particulars and auto synthesize a file
+
+package.json
+
+for you
+
+UPDATE : I see its been fixed ... my current version has a much better error message :
+
+npm install
+npm WARN ENOENT ENOENT: no such file or directory, open '/home/scott/aaa/package.json'
+
+
+node --version
+v5.4.1
+
+npm --version
+3.3.12
+------------------------------------------------------------------------------------------------
+
+3)Problem:
+
+
+
+
+
+
+
+
+
