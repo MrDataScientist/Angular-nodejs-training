@@ -37,5 +37,9 @@ https://git-scm.com/download/win
 ## Node.js v6.8.1 Documentation
 https://nodejs.org/api/net.html#net_socket_connect_port_host_connectlistener
 
+# Node.js - Event Emitter
+https://www.tutorialspoint.com/nodejs/nodejs_event_emitter.htm
+
+
 # Postman
 https://www.getpostman.com/docs/newman_intro
