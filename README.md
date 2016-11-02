@@ -21,6 +21,16 @@ Articles:
 - http://blog.teamtreehouse.com/7-awesome-things-can-build-node-js
 - https://github.com/shapeshed
 - https://azure.microsoft.com/en-us/documentation/articles/cloud-services-nodejs-develop-deploy-app/
+- https://www.sitepoint.com/beginners-guide-node-package-manager/
+- https://github.com/marley-nodejs/Build-a-Real-Time-web-app-in-node.js-Angular.js-mongoDB
+- https://github.com/marley-nodejs/Express-MongoDB-Build-a-Shopping-Cart
+- http://codehandbook.org/web-app-using-node-js-and-mysql/
+- https://www.owasp.org/index.php/OWASP_Node_js_Goat_Project
+- https://github.com/OWASP/NodeGoat
+- http://www.giantflyingsaucer.com/blog/?p=3950
+
+## for javascript libs :
+- http://underscorejs.org/
 
 # to download the latest version of node js go to :
 https://nodejs.org/en/download/current/
