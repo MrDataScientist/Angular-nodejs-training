@@ -28,6 +28,7 @@ Articles:
 - https://www.owasp.org/index.php/OWASP_Node_js_Goat_Project
 - https://github.com/OWASP/NodeGoat
 - http://www.giantflyingsaucer.com/blog/?p=3950
+- https://www.contentful.com/blog/2016/11/02/node-v7-urls-deprecations-warnings-and-developer-experience/
 
 ## for javascript libs :
 - http://underscorejs.org/
