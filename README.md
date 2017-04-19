@@ -1,4 +1,8 @@
 # NodeJS-training
+## Node project first commands
+- https://nodejs.org/en/
+-
+
 ## tutorials
 - http://noeticforce.com/best-nodejs-tutorial-with-examples
 - http://amirrajan.net/nodejs-by-example/
