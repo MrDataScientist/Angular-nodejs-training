@@ -9,3 +9,7 @@ nodemon index.js
 
 #install body-parser
 npm install --save body-parser
+
+#mini framework express
+npm install express
+
