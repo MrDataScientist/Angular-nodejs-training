@@ -78,3 +78,10 @@ https://www.tutorialspoint.com/nodejs/nodejs_event_emitter.htm
 
 # Postman
 https://www.getpostman.com/docs/newman_intro
+
+# Testing node.js Express app
+you can use Gulp as test runner
+jasmine as test framework
+
+another option:
+you can use Mocha
