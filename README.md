@@ -84,4 +84,4 @@ you can use Gulp as test runner
 jasmine as test framework
 
 another option:
-you can use Mocha
+you can use Mocha Chai
