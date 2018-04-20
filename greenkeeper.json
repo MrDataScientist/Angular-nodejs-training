@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "expressTest0/package.json"
+      ]
+    }
+  }
+}
